@@ -16,7 +16,6 @@
 
             margin: 0%;
             padding: 0%;
-             overflow-x:hidden;
         }
 
         marquee {
@@ -173,10 +172,15 @@
 
         .c {
             width: 400px;
-            height: 20px;
+            height: 12px;
+            border-radius: 8px;
+            /* width: 65%;
+            height: 10px; */
             position: absolute;
             left: 130px;
             top: 120px;
+            background-color: white;
+            /* color: white; */
         }
 
 
@@ -189,10 +193,12 @@
 
         .ce {
             width: 400px;
-            height: 20px;
+            height: 12px;
             position: absolute;
             left: 130px;
             top: 200px;
+            background-color: white;
+            border-radius: 8px;
         }
 
         .Py {
@@ -205,10 +211,12 @@
 
         .py {
             width: 400px;
-            height: 20px;
+            height: 12px;
             position: absolute;
             left: 130px;
             top: 275px;
+            background-color: white;
+            border-radius: 8px;
         }
 
         p input {
@@ -218,6 +226,33 @@
             top: -7px;
             background-color: white;
             left: 0px;
+        }
+        .ca{
+            width: 240px;
+            position: absolute;
+            height: 12px;
+            border-radius: 8px;
+            background-color: gray;
+            left: 130px;
+            top: 120px;
+        }
+        .cc{
+            width: 300px;
+            position: absolute;
+            height: 12px;
+            border-radius: 8px;
+            background-color: gray;
+            left: 130px;
+            top: 200px;
+        }
+        .pp{
+            width: 200px;
+            position: absolute;
+            height: 12px;
+            border-radius: 8px;
+            background-color: gray;
+            left: 130px;
+            top: 275px;
         }
     </style>
 </head>
@@ -244,13 +279,19 @@
         <span class="sa">
             <h1 class="sk">Skills</h1>
             <h1 class="C">C Language:</h1>
-            <progress class="c" value="60" max="100"></progress>
-
+            
+            <!-- <progress class="c" value="60" max="100"> </progress> -->
+            <!-- <progress class="c"></progress> -->
+<div class="c"></div>
+<div class="ca"></div>
             <h1 class="Ce">C++ Language:</h1>
-            <progress class="ce" value="70" max="100"></progress>
-
+            <!-- <progress class="ce" value="70" max="100"></progress> -->
+<div class="ce"></div>
+<div class="cc"></div>
             <h1 class="Py">Python Language:</h1>
-            <progress class="py" value="40" max="100"></progress>
+            <!-- <progress class="py" value="40" max="100"></progress> -->
+             <div class="py"></div>
+             <div class="pp"></div>
         </span>
         <img title="M.Abu Hurairah" src="images/me.jpg" alt="">
 
