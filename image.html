@@ -12,6 +12,8 @@
             /* background-color: black; */
             margin: 0%;
             padding: 0%;
+            box-sizing: border-box;
+            overflow-x:hidden;
         }
 
         marquee {
@@ -19,15 +21,21 @@
             height: 50px;
             border: 2px solid black;
             font-size: 40px;
-            background-color: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
+            background-color: gray;
+            color: white;
             font-family: "Rubik", sans-serif;
         }
 
         img {
             width: 260px;
-            height: 270px;
+            height: 280px;
             border: 2px solid black;
+        }
+        .container{
+            display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto); 
+  gap: 10px; 
         }
     </style>
 </head>
@@ -37,16 +45,16 @@
         Welcome to My Image Gallery
     </marquee>
     <div class="container">
-        <a href="picture/1.jpg"><img src="picture/1.jpg" alt="img1"></a>
-        <a href="picture/2.jpg"><img src="picture/2.jpg" alt="img2"></a>
-        <a href="picture/3.jpg"><img src="picture/3.jpg" alt="img3"></a>
-        <a href="picture/4.jpg"><img src="picture/4.jpg" alt="img4"></a>
-        <a href="picture/5.jpg"><img src="picture/5.jpg" alt="img5"></a>
-        <a href="picture/6.jpg"><img src="picture/6.jpg" alt="img6"></a>
-        <a href="picture/7.jpg"><img src="picture/7.jpg" alt="img7"></a>
-        <a href="picture/8.jpg"><img src="picture/8.jpg" alt="img8"></a>
-        <a href="picture/9.jpg"><img src="picture/9.jpg" alt="img9"></a>
-        <a href="picture/10.jpg"><img src="picture/10.jpg" alt="img10"></a>
+        <a href="picture/1.jpg"><img src="picture/1.jpg" alt=""></a>
+        <a href="picture/2.jpg"><img src="picture/2.jpg" alt=""></a>
+        <a href="picture/3.jpg"><img src="picture/3.jpg" alt=""></a>
+        <a href="picture/4.jpg"><img src="picture/4.jpg" alt=""></a>
+        <a href="picture/5.jpg"><img src="picture/5.jpg" alt=""></a>
+        <a href="picture/6.jpg"><img src="picture/6.jpg" alt=""></a>
+        <a href="picture/7.jpg"><img src="picture/7.jpg" alt=""></a>
+        <a href="picture/8.jpg"><img src="picture/8.jpg" alt=""></a>
+        <a href="picture/9.jpg"><img src="picture/9.jpg" alt=""></a>
+        <a href="picture/10.jpg"><img src="picture/10.jpg" alt=""></a>
     </div>
 </body>
 
